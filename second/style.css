@@ -1,0 +1,57 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+menu{
+    border:1px solid rgb(92, 77, 105);
+    background-color: rgb(92, 77, 105);
+    width:300px;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    color:white;
+    padding-left: 0;
+}
+ul li{
+    text-align: center;
+    line-height: 30px;
+    color:white;
+    height:30px;
+    margin-top: 20px;
+}
+ul li:hover{
+    background-color: rgb(46, 46, 97);
+}
+.edit{
+    background-image: url(edit.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.favorites{
+    background-image: url(favorites.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.history
+{
+    background-image:url(history.png) ;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.security
+{
+    background-image: url(security.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.settings
+{
+    background-image:url(settings.png) ;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
